@@ -1,8 +1,9 @@
+// tailwind.config.js
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./src/**/*.{vue,js,ts,jsx,tsx}"
   ],
   theme: {
     extend: {
@@ -12,7 +13,7 @@ export default {
         softpurple: '#d8b4f8',
         purple: '#8a2be2',
       }
-    },
+    }
   },
   plugins: [],
 }
