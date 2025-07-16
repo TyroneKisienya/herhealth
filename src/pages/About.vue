@@ -1,7 +1,7 @@
 <template>
   <main class="text-gray-800 font-sans">
     <PageHeader />
-    <FocusAreas />
+    <AboutFocusAreas />
     <HelpMethods />
     <TeamSection />
   </main>
@@ -9,7 +9,7 @@
 
 <script setup>
 import PageHeader from '@/components/about/PageHeader.vue'
-import FocusAreas from '@/components/about/FocusAreas.vue'
+import AboutFocusAreas from '@/components/about/AboutFocusAreas.vue'
 import HelpMethods from '@/components/about/HelpMethods.vue'
 import TeamSection from '@/components/about/TeamSection.vue'
 </script>
