@@ -1,7 +1,7 @@
 <template>
-  <main class="text-gray-800 font-sans" :class="scroll-smooth">
+  <main class="text-gray-800 font-sans">
     <!--Hero-->
-    <section id="home">
+    <section id="home" class="scroll-mt-24 pb-50">
       <HeroSection />
     </section>
     <!-- Mission -->
@@ -14,7 +14,7 @@
     </section>
 
     <!-- About -->
-    <section id="about" class="scroll-mt-24">
+    <section id="about" class="scroll-mt-24 pb-40">
       <PageHeader />
       <AboutFocusAreas />
       <HelpMethods />
@@ -22,12 +22,12 @@
     </section>
 
     <!-- Blog -->
-    <section id="blog" class="scroll-mt-24">
+    <section id="blog" class="scroll-mt-24 pb-30">
       <BlogList />
     </section>
 
     <!-- GetInvolved -->
-     <section id="get-involved" class="scroll-mt-24">
+     <section id="get-involved" class="scroll-mt-24 pb-20">
       <GetInvolvedForm />
       <ContactInfo />
      </section>

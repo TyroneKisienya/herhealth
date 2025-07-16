@@ -2,7 +2,7 @@
   <nav class="bg-lightpink shadow-md">
     <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
       <!-- Logo / Brand -->
-      <router-link to="/" class="text-purple text-xl font-bold">HerHealth</router-link>
+      <a href="#home" class="text-purple text-xl font-bold">HerHealth</a>
 
       <!-- Desktop Nav -->
       <ul class="hidden md:flex gap-6 text-sm font-medium text-purple">
@@ -44,16 +44,17 @@
       </button>
     </div>
 
-    <!-- Mobile Menu -->
+  <!-- Mobile Menu -->
     <div
       v-if="isOpen"
       class="md:hidden bg-lightpink px-4 pb-4 space-y-3 text-purple text-sm font-medium"
-    >
-      <router-link to="/" class="block hover:text-pink" @click="isOpen = false">Home</router-link>
-      <router-link to="/about" class="block hover:text-pink" @click="isOpen = false">About</router-link>
-      <router-link to="/get-involved" class="block hover:text-pink" @click="isOpen = false">Get Involved</router-link>
-      <router-link to="/blog" class="block hover:text-pink" @click="isOpen = false">Blog</router-link>
+      >
+      <a href="#home" class="block hover:text-pink" @click="isOpen = false">Home</a>
+      <a href="#about" class="block hover:text-pink" @click="isOpen = false">About</a>
+      <a href="#get-involved" class="block hover:text-pink" @click="isOpen = false">Get Involved</a>
+      <a href="#blog" class="block hover:text-pink" @click="isOpen = false">Blog</a>
     </div>
+
   </nav>
 </template>
 

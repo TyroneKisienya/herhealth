@@ -13,10 +13,10 @@
       <div>
         <h3 class="font-semibold mb-2">Quick Links</h3>
         <ul class="space-y-1 text-sm">
-          <li><router-link to="/" class="hover:text-pink">Home</router-link></li>
-          <li><router-link to="/about" class="hover:text-pink">About</router-link></li>
-          <li><router-link to="/get-involved" class="hover:text-pink">Get Involved</router-link></li>
-          <li><router-link to="/blog" class="hover:text-pink">Blog</router-link></li>
+          <li><a href="#home" class="hover:text-pink">Home</a></li>
+          <li><a href="#about" class="hover:text-pink">About</a></li>
+          <li><a href="#get-involved" class="hover:text-pink">Get Involved</a></li>
+          <li><a href="#blog" class="hover:text-pink">blog</a></li>
         </ul>
       </div>
 
