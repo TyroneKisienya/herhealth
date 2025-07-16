@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="text-gray-800 font-sans">
     <HeroSection />
     <MissionSection />
     <FocusAreas />

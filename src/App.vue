@@ -3,10 +3,6 @@
     <Navbar />
     <router-view />
   </div>
-  <div>
-    <Navbar />
-    <router-view />
-  </div>
 </template>
 
 <script setup>
