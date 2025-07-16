@@ -14,7 +14,7 @@
     </section>
 
     <!-- About -->
-    <section id="about">
+    <section id="about" class="scroll-mt-24">
       <PageHeader />
       <AboutFocusAreas />
       <HelpMethods />
@@ -22,12 +22,12 @@
     </section>
 
     <!-- Blog -->
-    <section id="blog">
+    <section id="blog" class="scroll-mt-24">
       <BlogList />
     </section>
 
     <!-- GetInvolved -->
-     <section id="get-involved">
+     <section id="get-involved" class="scroll-mt-24">
       <GetInvolvedForm />
       <ContactInfo />
      </section>

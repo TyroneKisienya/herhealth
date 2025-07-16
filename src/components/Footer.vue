@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-lightpink text-purple py-10 px-4 mt-12">
+  <footer class="bg-lightpink text-purple">
     <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-center md:text-left">
       <!-- Brand -->
       <div>
