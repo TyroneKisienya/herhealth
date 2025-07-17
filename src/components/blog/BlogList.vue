@@ -1,11 +1,13 @@
 <template>
-  <section class="bg-white py-16 px-4">
+  <section class="bg-white py-16 px-4" data-aos="fade-up">
     <div class="max-w-5xl mx-auto">
       <div class="grid gap-8 md:grid-cols-2">
         <article
-          v-for="post in posts"
+          v-for="(post, index) in posts"
           :key="post.id"
           class="bg-lightpink rounded-md shadow-md p-6 hover:shadow-lg transition"
+          data-aos="fade-up"
+          :data-aos-delay="index * 150"
         >
           <h2 class="text-2xl font-semibold text-purple mb-2">{{ post.title }}</h2>
           <p class="text-gray-700 text-sm">{{ post.description }}</p>

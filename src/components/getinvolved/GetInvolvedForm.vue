@@ -1,10 +1,12 @@
 <template>
-  <section class="bg-white py-16 px-4">
-    <div class="max-w-xl mx-auto bg-lightpink p-8 rounded-md shadow-md">
-      <h2 class="text-2xl font-bold text-purple mb-6 text-center">Contact Us</h2>
+  <section class="bg-white py-16 px-4" data-aos="fade-up">
+    <div class="max-w-xl mx-auto bg-lightpink p-8 rounded-md shadow-md" data-aos="zoom-in">
+      <h2 class="text-2xl font-bold text-purple mb-6 text-center" data-aos="fade-up" data-aos-delay="100">
+        Contact Us
+      </h2>
 
       <form @submit.prevent="submitForm" class="space-y-4">
-        <div>
+        <div data-aos="fade-up" data-aos-delay="200">
           <label class="block text-gray-700 mb-1" for="name">Name</label>
           <input
             v-model="name"
@@ -15,7 +17,7 @@
           />
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-delay="300">
           <label class="block text-gray-700 mb-1" for="email">Email</label>
           <input
             v-model="email"
@@ -26,7 +28,7 @@
           />
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-delay="400">
           <label class="block text-gray-700 mb-1" for="message">Message</label>
           <textarea
             v-model="message"
@@ -37,12 +39,14 @@
           ></textarea>
         </div>
 
-        <button
-          type="submit"
-          class="bg-pink text-white px-6 py-2 rounded hover:bg-purple transition w-full"
-        >
-          Send Message
-        </button>
+        <div data-aos="fade-up" data-aos-delay="500">
+          <button
+            type="submit"
+            class="bg-pink text-white px-6 py-2 rounded hover:bg-purple transition w-full"
+          >
+            Send Message
+          </button>
+        </div>
       </form>
     </div>
   </section>
