@@ -12,7 +12,7 @@ module.exports = {
         lightpink: '#ffe0ef',
         softpurple: '#d8b4f8',
         purple: '#8a2be2',
-      }
+      },
     }
   },
   plugins: [],

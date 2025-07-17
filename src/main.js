@@ -4,14 +4,14 @@ import App from './App.vue'
 import AOS from 'aos'
 
 import './assets/main.css' // Tailwind CSS or plain CSS
-import 'aos/dist/aos'
+import 'aos/dist/aos.css'
 
 const app = createApp(App)
 //app.use(router)
 app.mount('#app')
 
-Aos.init({
+AOS.init({
     duration: 800,
     once: true,
-    easing: 'ease-in-out',
+    easing: 'ease-in-out'
 })
